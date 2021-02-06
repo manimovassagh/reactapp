@@ -1,8 +1,17 @@
 import './App.css';
+import Navbar from './Navbar';
+
 
 function App() {
   return (
     <div className="App">
+    <div style={{padding:'0px 10px', display: 'flex', margin:'2px', alignItems:'space-between'}}>
+      <Navbar/>
+      <Navbar/>
+      <Navbar/>
+      <Navbar/>
+     
+      </div>
      <h1>Hi to React</h1>
      <p>this is really working easy!!!</p>
     </div>
