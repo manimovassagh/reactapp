@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 function LikeCounter() {
-  // Declare a new state variable, which we'll call "count"
+  //Declare a react Hook to Count Likes
   const [count, setCount] = useState(0);
 
   return (
