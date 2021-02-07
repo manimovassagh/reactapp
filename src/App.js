@@ -1,5 +1,6 @@
 import './App.css';
 import Navbar from './Navbar';
+import LikeCounter from './Date'
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Navbar/>
       <Navbar/>
       <Navbar/>
+      <LikeCounter/>
      
       </div>
      <h1>Hi to React</h1>
