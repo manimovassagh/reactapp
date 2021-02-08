@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./App.css";
 import Person from "./Person/Person";
+import ButtonAppBar from "./AppBar";
+import RecipeReviewCard from "./Cardfoto";
 
 class App extends Component {
   state = {
@@ -50,10 +52,11 @@ class App extends Component {
     };
 
     let persons = null;
-
+    <RecipeReviewCard />;
     if (this.state.showPersons) {
       persons = (
         <div>
+          <ButtonAppBar />
           <Person
             name={this.state.persons[0].name}
             age={this.state.persons[0].age}
