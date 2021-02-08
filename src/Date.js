@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Button from '@material-ui/core/Button';
 
 
 function LikeCounter() {
@@ -6,13 +7,20 @@ function LikeCounter() {
   const [count, setCount] = useState(0);
 
   return (
-         
- 
+    <div
+    style={{
+        position: 'absolute', 
+        left: '50%', 
+        top: '50%',
+        transform: 'translate(-50%, -50%)'
+    }}
+    >
     <div>
       <p>You clicked {count} times</p>
-      <button style={{backgroundColor:'red', borderRadius: '12px'}} onClick={() => setCount(count + 1)}>
+      <Button variant="contained" color="primary" onClick={() => setCount(count + 1)}>
         Click me
-      </button>
+      </Button>
+    </div>
     </div>
    
   );

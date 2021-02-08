@@ -9,9 +9,7 @@ function App() {
     <div className="App">
     <div style={{padding:'0px 10px', display: 'flex', margin:'2px', alignItems:'space-between'}}>
       <Navbar/>
-      <Navbar/>
-      <Navbar/>
-      <Navbar/>
+      
       <LikeCounter/>
      
       </div>
