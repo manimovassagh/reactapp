@@ -10,7 +10,7 @@ function LikeCounter() {
  
     <div>
       <p>You clicked {count} times</p>
-      <button onClick={() => setCount(count + 1)}>
+      <button style={{backgroundColor:'red', borderRadius: '12px'}} onClick={() => setCount(count + 1)}>
         Click me
       </button>
     </div>
