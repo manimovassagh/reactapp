@@ -7,7 +7,7 @@ import RecipeReviewCard from "./Cardfoto";
 class App extends Component {
   state = {
     persons: [
-      { name: "Max", age: 28 },
+      { name: "Max", age: 29 },
       { name: "Manu", age: 29 },
       { name: "Stephanie", age: 26 },
     ],
